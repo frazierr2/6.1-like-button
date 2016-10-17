@@ -13,4 +13,6 @@ $('#like-button').on("click", function() {
   // console.log(click.get('clickCount'));
   $('.like-num').text(click.get('clickCount'));
 
+  click.toJSON();
+
 });
