@@ -15,6 +15,8 @@ var ButtonClick = Backbone.Model.extend({
     } else {
       $('.like').text('Likes');
     }
+    return Backbone.Model.prototype.toJSON.call(this);
+
   }
 });
 
